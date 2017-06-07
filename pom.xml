@@ -88,6 +88,13 @@
             <version>${log4j.version}</version>
         </dependency>
 
+        <!-- Configuration -->
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.10</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -101,7 +108,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.solunar.init.App</mainClass>
+                            <mainClass>com.solunar.init.TomcatServer</mainClass>
                             <name>webapp</name>
                         </program>
                     </programs>
